@@ -8,7 +8,7 @@
 - Python 3.8+ / Node.js 14+（根据你的项目技术栈调整）
 - 操作系统：Linux/macOS（Windows需适配WSL或Git Bash）
 
-### 一键部署运行
+### 一键部署运行Linux
 1. 克隆本仓库（可选，直接运行脚本也会自动克隆）：
    ```bash
    git clone https://github.com/zzzx8888/mysql_to_sqlite.git
@@ -19,6 +19,23 @@
 3. 运行一键部署脚本
    ```bash
    ./deploy.sh
+
+### Windows 用户一键部署
+#### 环境要求
+- Git（需安装并配置到系统环境变量，下载地址：https://git-scm.com/download/win）
+- Python 3.8+ / Node.js 14+（根据项目技术栈选择，需配置环境变量）
+- 操作系统：Windows 7/10/11（建议使用管理员权限运行）
+
+#### 操作步骤
+1. 下载本仓库的 `deploy.bat` 文件（或直接克隆仓库）：
+   ```cmd
+   git clone https://github.com/zzzx8888/mysql_to_sqlite.git
+   cd mysql_to_sqlite
+### 双击 deploy.bat 运行，或在 CMD/PowerShell 中执行：
+   ```cmd
+   deploy.bat
+
+   
 ### 脚本功能说明
 deploy.sh 脚本会自动完成以下操作：
 1.  检查 Git 是否安装（未安装则提示并退出）；
