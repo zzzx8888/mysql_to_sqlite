@@ -1,4 +1,4 @@
-# 项目名称
+# mysql_to_sqlite
 一个基于Python的mysql_to_sqlite工具
 用于将mysql备份的sql转换为sqlite语法格式，并且附带导入sqlite数据库功能。
 
@@ -31,7 +31,7 @@
    ```cmd
    git clone https://github.com/zzzx8888/mysql_to_sqlite.git
    cd mysql_to_sqlite
-### 双击 deploy.bat 运行，或在 CMD/PowerShell 中执行：
+2. 双击 deploy.bat 运行，或在 CMD/PowerShell 中执行：
    ```cmd
    deploy.bat
 
